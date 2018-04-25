@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "noLib": false,
+        "jsx": "react",
+        "outDir": "server",
+        "lib": ["es2016", "webworker", "dom"],
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "*.ts",
+    ]
+}
